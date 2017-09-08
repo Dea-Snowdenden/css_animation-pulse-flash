@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head> 
+<meta charset="UTF-8">
+<style type="text/css">
+  .pic {
+    width: 100px;
+    height: 100px;
+    }
+  .picbig {
+  position: absolute;
+  width: 0px;
+  -webkit-transition:width 0.3s linear 0s; 
+  transition: width 0.3s linear 0s; z-index: 10;
+  }
+  .pic:hover + .picbig {
+  width:300px;
+}
+</style>
+</head>
+<body>
+<img class="pic" src="tulip.jpg" alt="tulip">
+<img class="picbig" src="tulip.jpg" alt="tulip">
+<img class="pic" src="https://maxpull-gdvuch3veo.netdna-ssl.com/wp-content/uploads/2009/12/tulips-400x300.jpg">
+<img class="picbig" src="https://maxpull-gdvuch3veo.netdna-ssl.com/wp-content/uploads/2009/12/tulips-400x300.jpg">
+<img class="pic" src="http://clv.h-cdn.co/assets/17/05/980x735/461059_270471526376317_18614725_o.jpg">
+<img class="picbig" src="http://clv.h-cdn.co/assets/17/05/980x735/461059_270471526376317_18614725_o.jpg">
+
+</body>
+</html>
