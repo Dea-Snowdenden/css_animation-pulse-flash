@@ -1,1 +1,6 @@
-This file shows an animated text that would pulse and flash. Basic html and css function just for fun for beginners.
+# BASIC CSS ANIMATION EFFECTS
+just something to play with.... :-)
+
+# sample of pulse and flash
+
+![alt-text](pulsenflash.gif)
